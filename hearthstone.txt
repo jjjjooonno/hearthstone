@@ -1,0 +1,17 @@
+LOAD DATA LOCAL INFILE "/Users/joono/hearthstone_utf88.csv" INTO TABLE joono.hearthstone FIELDS TERMINATED BY ",";
+
+
+alter table hearthstone add choice tinyint(3);
+alter table hearthstone add combo tinyint(3);
+alter table hearthstone add hide tinyint(3);
+alter table hearthstone add adaptation tinyint(3);
+alter table hearthstone add magicpower tinyint(3);
+alter table hearthstone add windfury tinyint(3);
+alter table hearthstone add devineshield tinyint(3);
+alter table hearthstone add silence tinyint(3);
+alter table hearthstone add exp tinyint(3);
+
+
+
+
+SET PASSWORD = PASSWORD('ehdtn0909');
